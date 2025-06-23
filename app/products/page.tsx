@@ -3,12 +3,9 @@ import { notFound } from "next/navigation";
 import { mockProducts  } from "@/data";
 import ProductCard from "@/components/shared/ProductCard";
 
-type Props = {
-  params: { slug: string };
-};
 
-export default function CategoryPage({ params }: Props) {
-  const { slug } = params;
+
+export default function CategoryPage() {
 
  
 
